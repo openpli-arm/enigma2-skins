@@ -1,0 +1,2 @@
+installdir = $(datadir)/enigma2/DMConcinnity-HD-Transp/images/geminiical
+install_DATA = *.png
