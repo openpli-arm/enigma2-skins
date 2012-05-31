@@ -36,6 +36,16 @@ skins/DMConcinnity-HD/meta/Makefile
 skins/DMConcinnity-HD/skin_default/Makefile
 skins/DMConcinnity-HD/skin_default/buttons/Makefile
 skins/DMConcinnity-HD/skin_default/icons/Makefile
+skins/DMConcinnity-HD-Transp/Makefile
+skins/DMConcinnity-HD-Transp/buttons/Makefile
+skins/DMConcinnity-HD-Transp/extensions/Makefile
+skins/DMConcinnity-HD-Transp/fonts/Makefile
+skins/DMConcinnity-HD-Transp/icons/Makefile
+skins/DMConcinnity-HD-Transp/menu/Makefile
+skins/DMConcinnity-HD-Transp/meta/Makefile
+skins/DMConcinnity-HD-Transp/skin_default/Makefile
+skins/DMConcinnity-HD-Transp/skin_default/buttons/Makefile
+skins/DMConcinnity-HD-Transp/skin_default/icons/Makefile
 skins/dmm-HD/Makefile
 skins/dmm-HD/buttons/Makefile
 skins/dmm-HD/extensions/Makefile
