@@ -111,15 +111,17 @@
     <convert type="ServiceInfo">IsCrypted</convert>
     <convert type="ConditionalShowHide" />
   </widget>
+
+<!--de network
   <ePixmap position="965,13" size="17,20" zPosition="1" pixmap="DMConcinnity-HD-Transp/icons/ico_line_off.png" alphatest="blend" />
-<!--de
+
   <widget source="global.OnlineIcon" render="Pixmap" position="965,13" size="17,20" zPosition="2" pixmap="DMConcinnity-HD-Transp/icons/ico_line_on.png" alphatest="blend">
     <convert type="ConditionalShowHide" />
   </widget>
 -->
-  <!--widget source="session.CurrentService" render="Label" position="138,6" size="554,34" font="Regular;26" valign="top" noWrap="1" backgroundColor="transpBlack" transparent="1">
+  <widget source="session.CurrentService" render="Label" position="138,6" size="554,34" font="Regular;26" valign="top" noWrap="1" backgroundColor="transpBlack" transparent="1">
     <convert type="ServiceName">Name</convert>
-  </widget-->
+  </widget>
 <!--de
   <widget source="global.gServiceInfos" render="Label" position="138,6" size="554,34" font="Regular;26" valign="top" noWrap="1" backgroundColor="transpBlack" transparent="1" />
 -->
@@ -182,7 +184,7 @@
     <convert type="ValueRange">3,3</convert>
     <convert type="ConditionalShowHide" />
   </widget>
-  <widget source="session.RecordState" render="Pixmap" position="988,13" size="20,20" pixmap="DMConcinnity-HD-Transp/icons/ico_rec_on.png" alphatest="blend">
+  <widget source="session.RecordState" render="Pixmap" position="965,13" size="20,20" pixmap="DMConcinnity-HD-Transp/icons/ico_rec_on.png" alphatest="blend">
     <convert type="ConditionalShowHide">Blink</convert>
   </widget>
   <widget source="global.CurrentTime" render="Label" position="1013,10" size="75,23" font="Regular;23" halign="right" backgroundColor="transpBlack" transparent="1">
@@ -233,6 +235,8 @@
     <convert type="ClockToText">InMinutes</convert>
   </widget>
   <eLabel text=")" position="960,106" size="10,28" font="Regular;24" halign="right" foregroundColor="darkgrey" backgroundColor="grey" transparent="1" />
+
+
   <widget source="session.CurrentService" render="Label" position="1000,72" size="55,22" font="Regular;18" halign="right" foregroundColor="black" backgroundColor="grey" transparent="1">
     <convert type="ServiceInfo">VideoWidth</convert>
   </widget>
@@ -240,16 +244,22 @@
   <widget source="session.CurrentService" render="Label" position="1070,72" size="55,22" font="Regular;18" halign="left" foregroundColor="black" backgroundColor="grey" transparent="1">
     <convert type="ServiceInfo">VideoHeight</convert>
   </widget>
-  <eLabel text="SNR:" position="990,93" size="55,22" font="Regular;18" foregroundColor="black" backgroundColor="grey" transparent="1" />
-  <widget source="session.FrontendStatus" render="Label" position="1045,93" size="88,22" font="Regular;18" halign="left" foregroundColor="black" backgroundColor="grey" transparent="1">
+
+  <eLabel text="SNR:" position="990,114" size="55,22" font="Regular;18" foregroundColor="black" backgroundColor="grey" transparent="1" />
+  <widget source="session.FrontendStatus" render="Label" position="1045,114" size="88,22" font="Regular;18" halign="left" foregroundColor="black" backgroundColor="grey" transparent="1">
     <convert type="FrontendInfo">SNRdB</convert>
   </widget>
+<!-- delete temp
   <eLabel text="Temp:" position="990,114" size="55,22" font="Regular;18" foregroundColor="black" backgroundColor="grey" transparent="1" />
+
   <widget render="DMConcinnityMaxTemp" source="global.CurrentTime" position="1038,114" size="55,22" font="Regular;18" halign="right" foregroundColor="black" backgroundColor="grey" transparent="1">
-    <!--eLabel text="BER:" position="990,114" size="55,22" font="Regular;18" foregroundColor="black" backgroundColor="grey" transparent="1" /-->
+-->
+    <!-- eLabel text="BER:" position="990,114" size="55,22" font="Regular;18" foregroundColor="black" backgroundColor="grey" transparent="1" /-->
     <!--widget source="session.FrontendStatus" render="Label" position="1050,114" size="55,22" font="Regular;18" halign="center" foregroundColor="black" backgroundColor="grey" transparent="1"-->
     <!--convert type="FrontendInfo">BER</convert-->
+<!-- delete temp
   </widget>
+-->
   <!-- GP2 -->
 <!-- de
   <widget source="global.BGEvent" render="Label" position="699,12" size="29,22" font="Regular;18" backgroundColor="transpBlack" halign="center" foregroundColor="white" transparent="1" noWrap="1" />
@@ -300,6 +310,8 @@
     <convert type="ClockToText">Format::%S</convert>
   </widget>
 </screen>
+<!-- ================================================================= -->
+
   <!-- EPG-Infobar -->
   <screen name="SecondInfoBar" position="70,530" size="1140,170" title="SecondInfoBar" flags="wfNoBorder">
     <ePixmap position="0,0" zPosition="-2" size="1140,170" pixmap="DMConcinnity-HD-Transp/infobar.png" />
