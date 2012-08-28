@@ -739,7 +739,8 @@
     <widget source="global.CurrentTime" render="Label" position="110,20" size="140,25" font="Regular;23" foregroundColor="blue" backgroundColor="grey" transparent="1">
       <convert type="ClockToText">Format:%d.%m.%Y</convert>
     </widget>
-    <eLabel text="About Dreambox" position="270,20" size="540,43" font="Regular;35" halign="right" foregroundColor="black" backgroundColor="grey" transparent="1" />
+    <eLabel text="About Sen5box" position="270,20" size="540,43" font="Regular;35" halign="right" foregroundColor="black" backgroundColor="grey" transparent="1" />
+<!--
     <widget source="EnigmaVersion" render="Label" position="40,85" size="700,35" font="Regular;26" backgroundColor="transpBlack" transparent="1" />
     <widget source="ImageVersion" render="Label" position="40,130" size="700,35" font="Regular;26" backgroundColor="transpBlack" transparent="1" />
     <widget source="FPVersion" render="Label" position="40,175" size="700,35" font="Regular;26" backgroundColor="transpBlack" transparent="1" />
@@ -750,9 +751,11 @@
     <widget source="Tuner3" render="Label" position="40,380" size="700,30" font="Regular;24" backgroundColor="transpBlack" transparent="1" />
     <widget source="HDDHeader" render="Label" position="40,440" size="700,30" font="Regular;26" foregroundColor="yellow" backgroundColor="transpBlack" transparent="1" />
     <widget source="hddA" render="Label" position="40,485" size="700,65" font="Regular;24" backgroundColor="transpBlack" transparent="1" />
-    <ePixmap position="620,480" size="200,110" pixmap="DMConcinnity-HD-Transp/kerni.png" alphatest="blend" transparent="1" />
+-->  
+  <ePixmap position="620,480" size="200,110" pixmap="DMConcinnity-HD-Transp/kerni.png" alphatest="blend" transparent="1" />
     <ePixmap pixmap="DMConcinnity-HD-Transp/buttons/green.png" position="30,570" size="35,27" alphatest="blend" />
     <eLabel text="Translation" position="80,573" size="200,26" zPosition="1" font="Regular;22" halign="left" foregroundColor="black" backgroundColor="grey" transparent="1" />
+    <widget name="AboutScrollLabel" font="Regular;22" position="45,70" size="780,480" zPosition="2" halign="left" />
   </screen>
   <screen name="BouquetSelector" position="330,125" size="620,470" title="Choose bouquet">
     <widget name="menu" position="10,10" size="600,450" itemHeight="30" scrollbarMode="showOnDemand" enableWrapAround="1" selectionPixmap="DMConcinnity-HD-Transp/menu/sel700x30.png" transparent="1" />
