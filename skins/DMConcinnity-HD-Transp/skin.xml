@@ -35,8 +35,12 @@
     <font filename="ae_AlMateen.ttf" name="Replacement" scale="100" replacement="1" />
     <font filename="tuxtxt.ttf" name="Console" scale="100" />
     <font filename="nmsbd.ttf" name="Arial" scale="100" />
+    <font filename="nmsbd.ttf" name="Regular" scale="100" />
+ <!--   
     <font filename="/usr/share/enigma2/DMConcinnity-HD-Transp/fonts/HandelGotDBol.ttf" name="Regular" scale="100" />
+-->    
     <font filename="/usr/share/enigma2/DMConcinnity-HD-Transp/fonts/ds_digital.ttf" name="Digital" scale="100"/>
+
   </fonts>
   <subtitles>
     <sub name="Subtitle_TTX" font="Regular;30" shadowColor="#40101010" shadowOffset="3,3" />
