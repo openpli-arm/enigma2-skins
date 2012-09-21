@@ -2836,6 +2836,9 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
     <widget source="key_yellow" render="Label" position="600,573" size="200,26" zPosition="1" font="Regular;20" halign="left" foregroundColor="black" backgroundColor="grey" transparent="1" />
     <widget source="key_blue" render="Label" position="880,573" size="200,26" zPosition="1" font="Regular;22" halign="left" foregroundColor="black" backgroundColor="grey" transparent="1" />
   </screen>
+
+
+
   <screen name="NetworkAdapterTest" position="90,57" size="1100,605" title="Network test..." flags="wfNoBorder">
     <ePixmap position="0,0" zPosition="-10" size="1100,605" pixmap="DMConcinnity-HD-Transp/menu/mainbg.png" />
     <widget source="global.CurrentTime" render="Label" position="20,20" size="80,25" font="Regular;23" foregroundColor="black" backgroundColor="grey" transparent="1">
@@ -2887,6 +2890,10 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
     <widget source="key_green" render="Label" position="340,573" size="200,26" zPosition="1" font="Regular;22" halign="left" foregroundColor="black" backgroundColor="grey" transparent="1" />
     <widget source="key_yellow" render="Label" position="600,573" size="200,26" zPosition="1" font="Regular;20" halign="left" foregroundColor="black" backgroundColor="grey" transparent="1" />
   </screen>
+
+
+
+
   <screen name="WlanScan" position="90,57" size="1100,605" title="Choose a Wireless Network" flags="wfNoBorder">
     <ePixmap position="0,0" zPosition="-10" size="1100,605" pixmap="DMConcinnity-HD-Transp/menu/mainbg.png" />
     <widget source="global.CurrentTime" render="Label" position="20,20" size="80,25" font="Regular;23" foregroundColor="black" backgroundColor="grey" transparent="1">
@@ -4959,4 +4966,8 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
     <widget source="parent.title" render="Label" position="0,4" size="120,21" font="LCD;12" halign="center" valign="top" />
     <widget source="parent.lcdinfo" render="Label" position="0,30" size="120,21" font="LCD;13" halign="center" valign="top" />
   </screen>
+	<screen name="QuitMainloopScreen" position="0,0" size="1500,720" title="QuitMainloopScreen" flags="wfNoBorder">
+		<ePixmap pixmap="skin_default/icons/input_info.png" position="c-127,c-140" size="53,53" alphatest="on" />
+		<widget name="text" position="c-460,c-90" size="720,100" font="Regular;22" halign="center" />
+	</screen>
 </skin>
